@@ -31,12 +31,6 @@ public class MyUI extends UI implements ViewDisplay {
         root.setSizeFull();
         setContent(root);
 
-        /*final CssLayout navigationBar = new CssLayout();
-        navigationBar.addStyleName(ValoTheme.LAYOUT_COMPONENT_GROUP);
-        navigationBar.addComponent(createNavigationButton("View Scoped View",
-                UIScopedView.VIEW_NAME));
-        root.addComponent(navigationBar);*/
-
         springViewDisplay = new Panel();
         springViewDisplay.setSizeFull();
         root.addComponent(springViewDisplay);
